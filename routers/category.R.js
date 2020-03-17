@@ -1,6 +1,16 @@
-let express = require('express');
-let router = express.Router();
-router.get('/',(req, res)=>{
-    res.render('category');
+const express = require('express');
+const router = express.Router();
+router.get('/:id',(req, res)=>{
+    const productC = require('../controllers/product.C');
+    productC
+    .getList(req.params.id)
+    .then(data => {
+        const listPro= data;
+        
+        res.render('product',{
+            table: listPro
+        });
+    })
+    .catch(console.error())
 });
 module.exports = router;

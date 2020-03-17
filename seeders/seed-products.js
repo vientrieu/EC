@@ -3,184 +3,184 @@
 module.exports = {
   up: (queryInterface, Sequelize) => {
     let data = [{
-      "name": "Dinner with Friends",
+      "name": "Samsung A1",
       "price": "693.73",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/5fa2dd/ffffff",
+      "imagepath": "/img/samsungA1.png",
       "categoryID": "1"
     }, {
-      "name": "Zoolander",
+      "name": "Samsung A2",
       "price": "249.90",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/cc0000/ffffff",
+      "imagepath": "/img/samsungA2.png",
       "categoryID": "1"
     }, {
-      "name": "Mondays in the Sun (Lunes al sol, Los)",
+      "name": "Samsung A3",
       "price": "400.46",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/cc0000/ffffff",
+      "imagepath": "/img/samsungA3.png",
       "categoryID": "1"
     }, {
-      "name": "Moon of the Wolf",
+      "name": "Samsung S1",
       "price": "295.07",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/cc0000/ffffff",
+      "imagepath": "/img/samsungS1.png",
       "categoryID": "1"
     }, {
-      "name": "Mackintosh Man, The",
+      "name": "Samsung S2",
       "price": "952.64",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/dddddd/000000",
+      "imagepath": "/img/samsungS2.png",
       "categoryID": "1"
     }, {
-      "name": "The Clinic",
+      "name": "Samsung S3",
       "price": "793.50",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/ff4444/ffffff",
+      "imagepath": "/img/samsungS3.png",
       "categoryID": "1"
     }, {
-      "name": "Go Now",
+      "name": "Samsung Note1",
       "price": "709.24",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/ff4444/ffffff",
+      "imagepath": "/img/samsungNote1.png",
       "categoryID": "1"
     }, {
-      "name": "Day He Arrives, The (Book chon bang hyang)",
+      "name": "Samsung Note2",
       "price": "285.16",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/dddddd/000000",
+      "imagepath": "/img/samsungNote2.png",
       "categoryID": "1"
     }, {
-      "name": "Legend of Hell House, The",
+      "name": "Samsung Note3",
       "price": "538.22",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/5fa2dd/ffffff",
+      "imagepath": "/img/samsungNote3.png",
       "categoryID": "1"
     }, {
-      "name": "Man on High Heels",
+      "name": "Samsung Note10",
       "price": "840.89",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/5fa2dd/ffffff",
+      "imagepath": "/img/samsungNote10.png",
       "categoryID": "1"
     }, {
-      "name": "Jarhead",
+      "name": "Iphone 1",
       "price": "111.42",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/cc0000/ffffff",
+      "imagepath": "/img/iphone1.png",
       "categoryID": "2"
     }, {
-      "name": "Pay It Forward",
+      "name": "Iphone 2",
       "price": "426.32",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/cc0000/ffffff",
+      "imagepath": "/img/iphone2.png",
       "categoryID": "2"
     }, {
-      "name": "Flakes",
+      "name": "Iphone 3",
       "price": "155.87",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/cc0000/ffffff",
+      "imagepath": "/img/iphone3.png",
       "categoryID": "2"
     }, {
-      "name": "Unraveled",
+      "name": "Iphone 4",
       "price": "930.55",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/cc0000/ffffff",
+      "imagepath": "/img/iphone4.png",
       "categoryID": "2"
     }, {
-      "name": "Brazil: In the Shadow of the Stadiums",
+      "name": "Iphone 5",
       "price": "815.84",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/ff4444/ffffff",
+      "imagepath": "/img/iphone5.png",
       "categoryID": "2"
     }, {
-      "name": "Never Again",
+      "name": "Iphone 6",
       "price": "408.23",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/ff4444/ffffff",
+      "imagepath": "/img/iphone6.png",
       "categoryID": "2"
     }, {
-      "name": "Microcosmos (Microcosmos: Le peuple de l'herbe)",
+      "name": "Iphone 7",
       "price": "385.95",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/dddddd/000000",
+      "imagepath": "/img/iphone7.png",
       "categoryID": "2"
     }, {
-      "name": "Foreign Affair, A (2 Brothers & a Bride)",
+      "name": "Iphone 8",
       "price": "620.75",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/dddddd/000000",
+      "imagepath": "/img/iphone8.png",
       "categoryID": "2"
     }, {
-      "name": "Crimson Permanent Assurance, The",
+      "name": "Iphone 9",
       "price": "743.66",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/5fa2dd/ffffff",
+      "imagepath": "/img/iphone9.png",
       "categoryID": "2"
     }, {
-      "name": "Girls Rock!",
+      "name": "Iphone X",
       "price": "822.62",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/ff4444/ffffff",
+      "imagepath": "/img/iphoneX.png",
       "categoryID": "2"
     }, {
-      "name": "Bonneville",
+      "name": "BPhone 1",
       "price": "231.29",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/ff4444/ffffff",
+      "imagepath": "/img/bphone1.png",
       "categoryID": "3"
     }, {
-      "name": "Star Is Born, A",
+      "name": "BPhone 2",
       "price": "719.85",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/5fa2dd/ffffff",
+      "imagepath": "/img/bphone2.png",
       "categoryID": "3"
     }, {
-      "name": "Unspeakable Acts ",
+      "name": "BPhone 3",
       "price": "155.66",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/ff4444/ffffff",
+      "imagepath": "/img/bphone3.png",
       "categoryID": "3"
     }, {
-      "name": "Shaft, The (a.k.a. Down)",
+      "name": "VinSmart 1",
       "price": "869.95",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/5fa2dd/ffffff",
+      "imagepath": "/img/vinsmart1.png",
       "categoryID": "3"
     }, {
-      "name": "CJ7 (Cheung Gong 7 hou)",
+      "name": "VinSmart 2",
       "price": "662.39",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/dddddd/000000",
+      "imagepath": "/img/vinsmart2.png",
       "categoryID": "3"
     }, {
-      "name": "Outlaw Josey Wales, The",
+      "name": "VinSmart 3",
       "price": "415.10",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/ff4444/ffffff",
+      "imagepath": "/img/vinsmart3.png",
       "categoryID": "3"
     }, {
-      "name": "Mr. Popper's Penguins",
+      "name": "VinSmart Live",
       "price": "978.22",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/dddddd/000000",
+      "imagepath": "/img/vinsmartlive.png",
       "categoryID": "3"
     }, {
-      "name": "L'homme qui rit",
+      "name": "Xiaomi 4",
       "price": "327.79",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/cc0000/ffffff",
+      "imagepath": "/img/xiaomi4.png",
       "categoryID": "3"
     }, {
-      "name": "Murder by Proxy: How America Went Postal",
+      "name": "Xiaomi 5",
       "price": "933.03",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/dddddd/000000",
+      "imagepath": "/img/xiaomi5.png",
       "categoryID": "3"
     }, {
-      "name": "Steal This Film II",
+      "name": "Xiaomi 6",
       "price": "115.33",
       "sumary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique, diam in consequat iaculis, est purus iaculis mauris, imperdiet facilisis ante ligula at nulla. Quisque volutpat nulla risus, id maximus ex aliquet ut. Suspendisse potenti. Nulla varius lectus id turpis dignissim porta. Quisque magna arcu, blandit quis felis vehicula, feugiat gravida diam. Nullam nec turpis ligula. Aliquam quis blandit elit, ac sodales nisl. Aliquam eget dolor eget elit malesuada aliquet. In varius lorem lorem, semper bibendum lectus lobortis ac.",
-      "imagepath": "http://dummyimage.com/100x100.jpg/ff4444/ffffff",
+      "imagepath": "/img/xiaomi6.png",
       "categoryID": "3"
     }];
     data.map(item=>{

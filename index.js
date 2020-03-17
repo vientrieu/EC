@@ -20,6 +20,7 @@ app.get('/sync',(req,res)=>{
 }); 
 app.use('/',require('./routers/index.R'));
 app.use('/category',require('./routers/category.R'));
+app.use('/product',require('./routers/product.R'));
 app.get('/:page',(req, res)=>{
     let page=req.params.page;
     res.render(page);
