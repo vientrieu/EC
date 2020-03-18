@@ -5,22 +5,26 @@
     "database": "dcoje25pvkrshc",
     "host": "ec2-52-86-33-50.compute-1.amazonaws.com",
     "dialect": "postgres",
-    "operatorsAliases": false
+    "dialectOptions": {
+        "ssl":true
+    }
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
+    "username": "postgres",
+    "password": "1234567",
+    "database": "ECdb",
+    "host": "localhost",
+    "dialect": "postgres",
     "operatorsAliases": false
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
+    "username": "heroku-postgres-username",
+    "password": "heroku-postgres-password",
+    "database": "heroku-postgres-database",
+    "host": "heroku-postgres-host",
+    "dialect": "postgres",
+    "dialectOptions": {
+        "ssl":true
+    }
   }
 }

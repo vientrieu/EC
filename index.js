@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const expresshbs = require('express-handlebars');
+
 const hbs = expresshbs.create(
     {
         extname: 'hbs',
@@ -21,10 +22,10 @@ app.get('/sync',(req,res)=>{
 app.use('/',require('./routers/index.R'));
 app.use('/category',require('./routers/category.R'));
 app.use('/product',require('./routers/product.R'));
-app.get('/:page',(req, res)=>{
-    let page=req.params.page;
-    res.render(page);
-});
+// app.get('/:page',(req, res)=>{
+//     let page=req.params.page;
+//     res.render(page);
+// });
 app.use(express.static(__dirname + '/public'));
 app.set('port', process.env.PORT || 3000);
 app.listen(app.get('port'),()=> {
